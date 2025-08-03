@@ -1,0 +1,25 @@
+{
+  "name": "doodle-mashup-replit",
+  "version": "1.0.0",
+  "description": "Carolina The Doodler - Doodle Mashup Beta",
+  "type": "commonjs",
+  "scripts": {
+    "consolidate": "node scripts/do-everything.js",
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "lint": "eslint . --ext .js,.ts,.tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "author": "Carolina The Doodler",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.0.6"
+  }
+}
